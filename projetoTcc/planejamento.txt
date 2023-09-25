@@ -1,0 +1,24 @@
+C:\Users\Bruno\PycharmProjects
+1- local para compra
+
+-home page
+
+-fazer login e cadastrar
+    -email
+    -username
+    -senha
+    -carrinho
+    -editar perfil
+
+-produtos
+    -thumb
+    -titulo
+    -categoria
+    -data criação
+    -produto
+        -compra
+        -link para chat com o vendedor
+
+-barra de pesquisa
+
+
