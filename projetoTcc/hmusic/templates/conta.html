@@ -1,0 +1,17 @@
+{% extends 'base.html'  %}
+
+{% block titulo %}
+HOME FALSA
+{% endblock %}
+
+{% block content %}
+<div class="py-14" >
+    <h1>FALSA TEST</h1>
+    {% for instrumentos in object_list %}
+    <hr>
+    <p>{{instrumentos}}</p>
+    <p>{{ instrumentos.descricao }}</p>
+    <img src="{{ instrumentos.thumb.url }}">
+    {% endfor %}
+</div>
+{% endblock %}
